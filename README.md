@@ -2,10 +2,10 @@
 - Conhecendo o Kotlin
 # 🖍 Objetivos
 - Treinamento com uso da linguagem Kotlin.
-- construindo um projeto simples aplicando CRUD
+- construindo um projeto para manipulação de produtos com estoque e prço
 # 🛠 Ferramentas
 - Rest API
 - Migrations
 - JPA
 - Gradle
-- Injeção de dependencia
+- Mysql
