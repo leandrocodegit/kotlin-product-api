@@ -1,0 +1,18 @@
+server:
+  port: 9090
+swagger:
+  pathMapping: ${SWAGGER_PATH_MAPPING:/}
+spring:
+  mvc.pathmatch:
+    matching-strategy: ant-path-matcher
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/products?createDatabaseIfNotExist=True&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  flyway:
+    clean-disabled: true
